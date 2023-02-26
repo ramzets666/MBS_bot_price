@@ -1,0 +1,12 @@
+{
+	
+	"license": "MIT",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"axios": "^0.17.1",
+		"discord.js": "^11.6.4",
+		"dotenv": "^5.0.0"
+	}
+}
