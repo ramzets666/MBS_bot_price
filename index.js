@@ -20,18 +20,18 @@ function getPrices() {
       case 1:
             let arrow = priceChange > 0 ? '▲' : '▼';
             activityName = `${arrow} ${Math.abs(priceChange).toFixed(2)}% | ${symbol.toUpperCase()}`;
-            presenceOption = 2;
+            presenceOption = 1;
             break;
       case 2:
-            activityName = "AC Milan Monkeycup 🏆";
-            presenceOption = 3;
+            activityName = "";
+            presenceOption = 2;
             break;
       case 3:
-            activityName = "The Qualifiers round starts!";
-            presenceOption = 4;
+            activityName = "";
+            presenceOption = 3;
             break;
       case 4:
-            activityName = "#1: Jemyrr#5029🔥🔥🔥";
+            activityName = "";
             presenceOption = 4;
             break;
 }
